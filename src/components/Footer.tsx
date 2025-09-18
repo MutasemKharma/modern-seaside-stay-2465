@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="animate-fade-in [animation-delay:100ms]">
-            <h4 className="text-xl font-bold mb-4">MareSereno</h4>
+            <h4 className="text-xl font-bold mb-4">Reva Chalets</h4>
             <p className="text-muted-foreground mb-4">
               {t.footer.description}
             </p>
@@ -61,18 +61,18 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-2 mt-0.5 text-primary" />
                 <span className="text-muted-foreground">
-                  123 Seaside Boulevard<br />
-                  Costa Bella, 12345<br />
-                  Italy
+                  Amman-Madaba Highway<br />
+                  Amman, 11181<br />
+                  Jordan
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">+39 123 4567 890</span>
+                <span className="text-muted-foreground">+962 6 123 4567</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">info@maresereno.com</span>
+                <span className="text-muted-foreground">info@revachalets.com</span>
               </li>
             </ul>
           </div>
@@ -100,7 +100,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} MareSereno. {t.footer.allRights}</p>
+          <p>&copy; {currentYear} Reva Chalets. {t.footer.allRights}</p>
         </div>
       </div>
     </footer>
