@@ -1,22 +1,22 @@
 export const it = {
   nav: {
     home: "Home",
-    apartments: "Appartamenti",
+    apartments: "Chalet",
     amenities: "Servizi",
     gallery: "Galleria",
     contact: "Contatti",
     bookNow: "Prenota Ora"
   },
   hero: {
-    subtitle: "ALLOGGI DI LUSSO SUL MARE",
-    title: "Vivi la Tranquillità del Mare",
-    description: "Scopri la nostra esclusiva collezione di appartamenti di lusso e camere d'albergo sul mare, che offrono comfort impareggiabile e viste mozzafiato sul mare.",
+    subtitle: "CHALET DI LUSSO IN TUTTA LA GIORDANIA",
+    title: "Vivi l'Autentica Ospitalità Giordana",
+    description: "Scopri la nostra esclusiva collezione di chalet di lusso in tutti i governatorati della Giordania, che offrono comfort impareggiabile e viste mozzafiato sui diversi paesaggi della Giordania.",
     bookStay: "Prenota il tuo Soggiorno",
-    exploreApartments: "Esplora gli Appartamenti",
+    exploreApartments: "Esplora Chalet",
     scrollDown: "Scorri Giù"
   },
   footer: {
-    description: "Appartamenti di lusso sul mare e camere d'albergo con splendide viste sul mare, che offrono il perfetto connubio di comfort ed eleganza per la tua vacanza da sogno.",
+    description: "Chalet di lusso nei governatorati della Giordania, che offrono il perfetto connubio di comfort, tradizione e servizi moderni per la tua vacanza da sogno.",
     quickLinks: "Link Rapidi",
     contact: "Contatti",
     newsletter: "Newsletter",
@@ -39,7 +39,7 @@ export const it = {
   },
   testimonials: {
     title: "Cosa Dicono i Nostri Ospiti",
-    description: "Scopri perché i nostri ospiti continuano a tornare a MareSereno per le loro fughe al mare."
+    description: "Scopri perché i nostri ospiti continuano a tornare a Reva Chalets per le loro vacanze in Giordania."
   },
   notFound: {
     title: "Pagina Non Trovata",
@@ -47,8 +47,8 @@ export const it = {
     returnHome: "Torna alla Home"
   },
   apartments: {
-    title: "I Nostri Appartamenti e Camere",
-    subtitle: "Scopri la nostra selezione di alloggi premium, dalle accoglienti mansarde ai lussuosi attici.",
+    title: "I Nostri Chalet",
+    subtitle: "Scopri la nostra selezione di chalet premium in tutta la Giordania, dai rifugi di montagna accoglienti alle lussuose ville nel deserto.",
     filters: {
       guests: "Ospiti",
       anyGuests: "Qualsiasi numero di ospiti",
@@ -56,14 +56,14 @@ export const it = {
       twoPlus: "2+ ospiti",
       threePlus: "3+ ospiti",
       fourPlus: "4+ ospiti",
-      location: "Posizione",
-      allLocations: "Tutte le posizioni",
+      location: "Governatorato",
+      allLocations: "Tutti i governatorati",
       priceRange: "Fascia di Prezzo",
       showing: "Visualizzando",
       of: "di",
       accommodations: "alloggi",
       resetFilters: "Reimposta Filtri",
-      noMatch: "Nessun appartamento corrisponde ai tuoi filtri",
+      noMatch: "Nessun chalet corrisponde ai tuoi filtri",
       adjustFilters: "Prova a modificare i criteri di filtro per vedere più opzioni.",
       viewDetails: "Visualizza Dettagli",
       features: "caratteristiche",
@@ -72,7 +72,7 @@ export const it = {
   },
   gallery: {
     title: "Galleria Fotografica",
-    subtitle: "Esplora il nostro paradiso sul mare attraverso immagini suggestive.",
+    subtitle: "Esplora i diversi paesaggi della Giordania e i nostri bellissimi chalet attraverso immagini suggestive.",
     filters: {
       all: "Tutti",
       exterior: "Esterno",
@@ -218,10 +218,10 @@ export const it = {
   },
   home: {
     welcome: {
-      subtitle: "Benvenuti a MareSereno",
-      title: "Alloggi di Lusso sul Mare",
-      description1: "Situato sulla incontaminata costa mediterranea, MareSereno offre una squisita collezione di appartamenti di lusso e camere d'albergo. I nostri alloggi fronte mare combinano un design elegante con comfort moderni, creando l'ambientazione perfetta per una indimenticabile fuga al mare.",
-      description2: "Che tu stia cercando una fuga romantica, una vacanza in famiglia o un ritiro tranquillo, la nostra vasta gamma di alloggi si adatta a ogni preferenza ed esigenza. Ogni spazio è progettato con cura per fornire viste panoramiche sul mare e accesso diretto alla spiaggia.",
+      subtitle: "Benvenuti a Reva Chalets",
+      title: "Chalet di Lusso in Tutta la Giordania",
+      description1: "Scopri le gemme nascoste della Giordania con Reva Chalets, che offre una squisita collezione di chalet di lusso in tutti i governatorati. I nostri alloggi combinano l'architettura tradizionale giordana con comfort moderni, creando l'ambientazione perfetta per una vacanza indimenticabile.",
+      description2: "Che tu stia esplorando Petra, rilassandoti nel Mar Morto o scoprendo i paesaggi desertici di Wadi Rum, la nostra vasta gamma di chalet si adatta a ogni preferenza ed esigenza. Ogni chalet è progettato con cura per fornire esperienze autentiche e viste mozzafiato sui diversi paesaggi della Giordania.",
       learnMore: "Scopri di Più"
     },
     booking: {
@@ -232,9 +232,9 @@ export const it = {
     },
     featuredApartments: {
       subtitle: "I Nostri Alloggi",
-      title: "Appartamenti in Evidenza",
-      description: "Scopri le nostre opzioni di alloggio più popolari, ognuna che offre un perfetto equilibrio di comfort, stile e viste mozzafiato sul mare.",
-      viewAll: "Visualizza Tutti gli Appartamenti"
+      title: "Chalet in Evidenza",
+      description: "Scopri le nostre opzioni di chalet più popolari nei governatorati della Giordania, ognuna che offre un perfetto equilibrio di comfort, design autentico e viste mozzafiato.",
+      viewAll: "Visualizza Tutti gli Chalet"
     },
     amenities: {
       subtitle: "Servizi dell'Hotel",
@@ -242,41 +242,41 @@ export const it = {
       description: "Goditi le nostre strutture e servizi premium progettati per rendere il tuo soggiorno eccezionale.",
       features: {
         beachfront: {
-          title: "Posizione Fronte Mare",
-          description: "Accesso diretto a spiagge incontaminate con acque cristalline."
+          title: "Posizioni Strategiche",
+          description: "Chalet in tutti i 12 governatorati, vicino alle principali attrazioni e monumenti."
         },
         pools: {
-          title: "Piscine",
-          description: "Rilassati accanto alle nostre piscine a sfioro con vista mozzafiato sul mare."
+          title: "Piscine Private",
+          description: "Molti chalet dispongono di piscine private con splendide viste su montagne o valli."
         },
         restaurant: {
-          title: "Ristorante Gourmet",
-          description: "Goditi squisita cucina locale e internazionale."
+          title: "Cucina Locale",
+          description: "Goditi l'autentica cucina giordana e piatti internazionali."
         },
         wifi: {
           title: "Wi-Fi ad Alta Velocità",
           description: "Rimani connesso con internet ad alta velocità gratuito."
         },
         bar: {
-          title: "Bar & Caffè sulla Spiaggia",
-          description: "Bevande rinfrescanti e snack serviti direttamente sulla spiaggia."
+          title: "Caffè Tradizionale",
+          description: "Vivi l'ospitalità tradizionale giordana con tè, caffè e dolci locali."
         },
         location: {
-          title: "Posizione Privilegiata",
-          description: "Vicino alle attrazioni locali, negozi e ristoranti."
+          title: "Vicino alle Attrazioni",
+          description: "Vicino ai famosi siti della Giordania come Petra, Wadi Rum e il Mar Morto."
         }
       }
     },
     cta: {
-      title: "Pronto per la tua Vacanza da Sogno?",
-      description: "Prenota il tuo soggiorno oggi e vivi il perfetto connubio di lusso, comfort e viste mozzafiato sul mare.",
+      title: "Pronto per la tua Avventura Giordana?",
+      description: "Prenota il tuo chalet oggi e vivi il perfetto connubio di lusso, tradizione e i paesaggi mozzafiato della Giordania.",
       bookNow: "Prenota Ora"
     }
   },
   amenitiesPage: {
     title: "I Nostri Servizi",
     subtitle: "Scopri i servizi e le comodità di lusso che rendono il tuo soggiorno indimenticabile.",
-    description: "A MareSereno, ci dedichiamo a fornire un'esperienza di soggiorno completa e lussuosa. Dai nostri servizi sulla spiaggia alle strutture di benessere, ogni dettaglio è stato curato per garantire il massimo comfort e piacere.",
+    description: "A Reva Chalets, ci dedichiamo a fornire un'esperienza di soggiorno completa e lussuosa. Dalla nostra ospitalità tradizionale giordana alle strutture moderne, ogni dettaglio è stato curato per garantire il massimo comfort e esperienze autentiche.",
     categories: {
       wellness: {
         title: "Benessere e Relax",
@@ -291,12 +291,12 @@ export const it = {
             description: "Mantieni la tua routine di fitness con la nostra palestra all'avanguardia con vista panoramica sul mare."
           },
           {
-            title: "Piscina Infinity",
-            description: "Immergiti nella nostra piscina a sfioro mentre ammiri l'orizzonte infinito del mare."
+            title: "Piscine Private",
+            description: "Molti dei nostri chalet dispongono di piscine private con splendide viste sui paesaggi della Giordania."
           },
           {
-            title: "Yoga sulla Spiaggia",
-            description: "Partecipa alle nostre sessioni di yoga mattutine sulla spiaggia per un risveglio rivitalizzante."
+            title: "Yoga nel Deserto",
+            description: "Partecipa alle nostre sessioni di yoga mattutine con viste mozzafiato sul deserto o sulle montagne."
           }
         ]
       },
@@ -309,8 +309,8 @@ export const it = {
             description: "Assapora piatti raffinati preparati dai nostri chef con ingredienti locali freschi."
           },
           {
-            title: "Bar sulla Spiaggia",
-            description: "Goditi cocktail rinfrescanti e snack leggeri con i piedi nella sabbia."
+            title: "Caffè Tradizionale",
+            description: "Goditi il tè giordano autentico, il caffè e le prelibatezze locali in un ambiente tradizionale."
           },
           {
             title: "Lounge Bar",
@@ -349,8 +349,8 @@ export const it = {
         description: "Goditi una varietà di attività ricreative pensate per tutti i gusti.",
         items: [
           {
-            title: "Sport Acquatici",
-            description: "Prova una vasta gamma di sport acquatici, dal paddleboarding al jet skiing."
+            title: "Attività Avventurose",
+            description: "Vivi escursioni, arrampicate, passeggiate in cammello e safari nel deserto."
           },
           {
             title: "Area Giochi per Bambini",
@@ -370,28 +370,28 @@ export const it = {
   },
   apartmentDescriptions: {
     "1": {
-      name: "Suite Vista Mare Deluxe",
-      description: "Suite lussuosa con vista panoramica sul mare, comfort moderni e balcone privato."
+      name: "Chalet Vista Petra",
+      description: "Chalet lussuoso vicino a Petra con vista panoramica sul deserto, arredamento tradizionale e comfort moderni."
     },
     "2": {
-      name: "Appartamento Premium per Famiglie",
-      description: "Appartamento spazioso ideale per famiglie, con cucina completa e splendide viste costiere."
+      name: "Villa Familiare Mar Morto",
+      description: "Villa spaziosa ideale per famiglie, con piscina privata e splendide viste sul Mar Morto."
     },
     "3": {
-      name: "Studio Esecutivo sulla Spiaggia",
-      description: "Elegante studio con accesso diretto alla spiaggia, design moderno e finiture di pregio."
+      name: "Lodge Deserto Wadi Rum",
+      description: "Autentico lodge in stile beduino a Wadi Rum con comfort moderni e terrazza per osservare le stelle."
     },
     "4": {
-      name: "Suite Attico di Lusso",
-      description: "Esclusiva suite all'ultimo piano con ampia terrazza e vista panoramica sul mare."
+      name: "Chalet Colline di Amman",
+      description: "Chalet moderno sulle colline di Amman con vista sulla città, perfetto per affari e tempo libero."
     },
     "5": {
-      name: "Camera Doppia Classica",
-      description: "Confortevole camera d'albergo con comfort moderni e vista parziale sul mare."
+      name: "Capanna Foresta di Ajloun",
+      description: "Capanna accogliente nelle foreste di pini di Ajloun, ideale per gli amanti della natura e gli escursionisti."
     },
     "6": {
-      name: "Appartamento Vista Giardino",
-      description: "Appartamento tranquillo circondato da rigogliosi giardini, a breve distanza dalla spiaggia."
+      name: "Chalet Mar Rosso Aqaba",
+      description: "Chalet fronte mare ad Aqaba con accesso al Mar Rosso, perfetto per gli appassionati di immersioni."
     }
   }
 };

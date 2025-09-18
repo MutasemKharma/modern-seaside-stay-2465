@@ -1,22 +1,22 @@
 export const en = {
   nav: {
     home: "Home",
-    apartments: "Apartments",
+    apartments: "Chalets",
     amenities: "Amenities",
     gallery: "Gallery",
     contact: "Contact",
     bookNow: "Book Now"
   },
   hero: {
-    subtitle: "BEACHFRONT LUXURY ACCOMMODATION",
-    title: "Experience Seaside Tranquility",
-    description: "Discover our exclusive collection of luxury beachfront apartments and hotel rooms, offering unparalleled comfort and breathtaking sea views.",
+    subtitle: "LUXURY CHALETS ACROSS JORDAN",
+    title: "Experience Authentic Jordanian Hospitality",
+    description: "Discover our exclusive collection of luxury chalets across all governorates of Jordan, offering unparalleled comfort and breathtaking views of Jordan's diverse landscapes.",
     bookStay: "Book Your Stay",
-    exploreApartments: "Explore Apartments",
+    exploreApartments: "Explore Chalets",
     scrollDown: "Scroll Down"
   },
   footer: {
-    description: "Luxurious beachfront apartments and hotel rooms with stunning sea views, offering the perfect blend of comfort and elegance for your dream vacation.",
+    description: "Luxurious chalets across Jordan's governorates, offering the perfect blend of comfort, tradition, and modern amenities for your dream vacation.",
     quickLinks: "Quick Links",
     contact: "Contact",
     newsletter: "Newsletter",
@@ -48,10 +48,10 @@ export const en = {
   },
   home: {
     welcome: {
-      subtitle: "Welcome to MareSereno",
-      title: "Luxury Seaside Accommodations",
-      description1: "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms. Our beachfront accommodations combine elegant design with modern comfort, creating the perfect setting for an unforgettable seaside getaway.",
-      description2: "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need. Each space is thoughtfully designed to provide panoramic sea views and direct beach access.",
+      subtitle: "Welcome to Reva Chalets",
+      title: "Luxury Chalets Across Jordan",
+      description1: "Discover Jordan's hidden gems with Reva Chalets, offering an exquisite collection of luxury chalets across all governorates. Our accommodations combine traditional Jordanian architecture with modern comfort, creating the perfect setting for an unforgettable getaway.",
+      description2: "Whether you're exploring Petra, relaxing in the Dead Sea, or discovering Wadi Rum's desert landscapes, our diverse range of chalets caters to every preference and need. Each chalet is thoughtfully designed to provide authentic experiences and stunning views of Jordan's diverse landscapes.",
       learnMore: "Learn More"
     },
     booking: {
@@ -62,9 +62,9 @@ export const en = {
     },
     featuredApartments: {
       subtitle: "Our Accommodations",
-      title: "Featured Apartments",
-      description: "Discover our most popular accommodation options, each offering a perfect blend of comfort, style, and breathtaking sea views.",
-      viewAll: "View All Apartments"
+      title: "Featured Chalets",
+      description: "Discover our most popular chalet options across Jordan's governorates, each offering a perfect blend of comfort, authentic design, and breathtaking views.",
+      viewAll: "View All Chalets"
     },
     amenities: {
       subtitle: "Hotel Amenities",
@@ -72,40 +72,40 @@ export const en = {
       description: "Enjoy our premium facilities and services designed to make your stay exceptional.",
       features: {
         beachfront: {
-          title: "Beachfront Location",
-          description: "Direct access to pristine beaches with crystal clear waters."
+          title: "Strategic Locations",
+          description: "Chalets in all 12 governorates, near major attractions and landmarks."
         },
         pools: {
-          title: "Swimming Pools",
-          description: "Relax by our infinity pools with stunning sea views."
+          title: "Private Pools",
+          description: "Many chalets feature private pools with stunning mountain or valley views."
         },
         restaurant: {
-          title: "Gourmet Restaurant",
-          description: "Enjoy exquisite local and international cuisine."
+          title: "Local Cuisine",
+          description: "Enjoy authentic Jordanian cuisine and international dishes."
         },
         wifi: {
           title: "High-Speed Wi-Fi",
           description: "Stay connected with complimentary high-speed internet."
         },
         bar: {
-          title: "Beach Bar & Café",
-          description: "Refreshing drinks and snacks served right on the beach."
+          title: "Traditional Café",
+          description: "Experience traditional Jordanian hospitality with tea, coffee, and local treats."
         },
         location: {
-          title: "Prime Location",
-          description: "Close to local attractions, shops, and restaurants."
+          title: "Near Attractions",
+          description: "Close to Jordan's famous sites like Petra, Wadi Rum, and the Dead Sea."
         }
       }
     },
     cta: {
-      title: "Ready for Your Dream Vacation?",
-      description: "Book your stay today and experience the perfect blend of luxury, comfort, and stunning sea views.",
+      title: "Ready for Your Jordanian Adventure?",
+      description: "Book your chalet today and experience the perfect blend of luxury, tradition, and Jordan's stunning landscapes.",
       bookNow: "Book Now"
     }
   },
   apartments: {
-    title: "Our Apartments & Rooms",
-    subtitle: "Discover our selection of premium accommodations, ranging from cozy studios to luxurious penthouses.",
+    title: "Our Chalets",
+    subtitle: "Discover our selection of premium chalets across Jordan, from cozy mountain retreats to luxurious desert villas.",
     filters: {
       guests: "Guests",
       anyGuests: "Any number of guests",
@@ -113,14 +113,14 @@ export const en = {
       twoPlus: "2+ guests",
       threePlus: "3+ guests",
       fourPlus: "4+ guests",
-      location: "Location",
-      allLocations: "All locations",
+      location: "Governorate",
+      allLocations: "All governorates",
       priceRange: "Price Range",
       showing: "Showing",
       of: "of",
       accommodations: "accommodations",
       resetFilters: "Reset Filters",
-      noMatch: "No apartments match your filters",
+      noMatch: "No chalets match your filters",
       adjustFilters: "Try adjusting your filter criteria to see more options.",
       viewDetails: "View Details",
       features: "features",
@@ -129,7 +129,7 @@ export const en = {
   },
   gallery: {
     title: "Photo Gallery",
-    subtitle: "Explore our seaside paradise through captivating imagery.",
+    subtitle: "Explore Jordan's diverse landscapes and our beautiful chalets through captivating imagery.",
     filters: {
       all: "All",
       exterior: "Exterior",
@@ -275,34 +275,34 @@ export const en = {
   },
   apartmentDescriptions: {
     "1": {
-      name: "Deluxe Sea View Suite",
-      description: "Luxurious suite with panoramic sea views, modern amenities, and a private balcony."
+      name: "Petra View Chalet",
+      description: "Luxurious chalet near Petra with panoramic desert views, traditional decor, and modern amenities."
     },
     "2": {
-      name: "Premium Family Apartment",
-      description: "Spacious apartment ideal for families, with full kitchen and stunning coastal views."
+      name: "Dead Sea Family Villa",
+      description: "Spacious villa ideal for families, with private pool and stunning views of the Dead Sea."
     },
     "3": {
-      name: "Executive Beach Studio",
-      description: "Elegant studio with direct beach access, modern design, and premium finishes."
+      name: "Wadi Rum Desert Lodge",
+      description: "Authentic Bedouin-style lodge in Wadi Rum with modern comforts and stargazing terrace."
     },
     "4": {
-      name: "Luxury Penthouse Suite",
-      description: "Exclusive top-floor suite with expansive terrace and panoramic sea views."
+      name: "Amman Hills Chalet",
+      description: "Modern chalet in Amman's hills with city views, perfect for business and leisure."
     },
     "5": {
-      name: "Classic Double Room",
-      description: "Comfortable hotel room with modern amenities and partial sea views."
+      name: "Ajloun Forest Cabin",
+      description: "Cozy cabin in Ajloun's pine forests, ideal for nature lovers and hikers."
     },
     "6": {
-      name: "Garden View Apartment",
-      description: "Peaceful apartment surrounded by lush gardens, just a short walk from the beach."
+      name: "Aqaba Red Sea Chalet",
+      description: "Beachfront chalet in Aqaba with Red Sea access, perfect for diving enthusiasts."
     }
   },
   amenitiesPage: {
     title: "Our Amenities",
     subtitle: "Discover the luxury amenities and services that make your stay unforgettable.",
-    description: "At MareSereno, we are dedicated to providing a comprehensive and luxurious stay experience. From our beachfront services to wellness facilities, every detail has been curated to ensure maximum comfort and pleasure.",
+    description: "At Reva Chalets, we are dedicated to providing a comprehensive and luxurious stay experience. From our traditional Jordanian hospitality to modern facilities, every detail has been curated to ensure maximum comfort and authentic experiences.",
     categories: {
       wellness: {
         title: "Wellness & Relaxation",
@@ -317,12 +317,12 @@ export const en = {
             description: "Maintain your fitness routine with our state-of-the-art gym featuring panoramic sea views."
           },
           {
-            title: "Infinity Pool",
-            description: "Immerse yourself in our infinity pool while admiring the endless horizon of the sea."
+            title: "Private Pools",
+            description: "Many of our chalets feature private pools with stunning views of Jordan's landscapes."
           },
           {
-            title: "Beach Yoga",
-            description: "Join our morning yoga sessions on the beach for a revitalizing awakening."
+            title: "Desert Yoga",
+            description: "Join our morning yoga sessions with breathtaking desert or mountain views."
           }
         ]
       },
@@ -335,8 +335,8 @@ export const en = {
             description: "Savor fine dishes prepared by our chefs with fresh local ingredients."
           },
           {
-            title: "Beach Bar",
-            description: "Enjoy refreshing cocktails and light snacks with your feet in the sand."
+            title: "Traditional Café",
+            description: "Enjoy authentic Jordanian tea, coffee, and local delicacies in a traditional setting."
           },
           {
             title: "Lounge Bar",
@@ -375,8 +375,8 @@ export const en = {
         description: "Enjoy a variety of recreational activities designed for all tastes.",
         items: [
           {
-            title: "Water Sports",
-            description: "Try a wide range of water sports, from paddleboarding to jet skiing."
+            title: "Adventure Activities",
+            description: "Experience hiking, rock climbing, camel riding, and desert safaris."
           },
           {
             title: "Kids Play Area",

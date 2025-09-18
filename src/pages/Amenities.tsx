@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Spa, Dumbbell, Pool, Yoga, Utensils, Wine, Coffee, Clock, Car, Plane, Car as CarIcon, MapPin, Waves, Users, Music, BookOpen } from "lucide-react";
+import { Heart as Spa, Dumbbell, Droplets as Pool, Activity as Yoga, Utensils, Wine, Coffee, Clock, Car, Plane, Car as CarIcon, MapPin, Waves, Users, Music, BookOpen } from "lucide-react";
 
 export default function Amenities() {
   const { t } = useLanguage();
@@ -35,7 +35,7 @@ export default function Amenities() {
           <div className="container relative z-10 pt-20">
             <div className="text-center max-w-3xl mx-auto">
               <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                MareSereno
+                Reva Chalets
               </span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
                 {t.amenitiesPage.title}
