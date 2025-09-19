@@ -155,15 +155,17 @@ export default function Contact() {
                 
                 <div className="glass-card p-6">
                   {!isSubmitted ? (
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form 
+                      action="https://formspree.io/f/xvgbezzw"
+                      method="POST"
+                      className="space-y-6"
+                    >
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="space-y-2">
                           <Label htmlFor="name">{t.contact.fullName}</Label>
                           <Input 
                             id="name" 
                             name="name"
-                            value={formData.name}
-                            onChange={handleInputChange}
                             placeholder="John Doe" 
                             required 
                           />
@@ -175,8 +177,6 @@ export default function Contact() {
                             id="email" 
                             name="email"
                             type="email"
-                            value={formData.email}
-                            onChange={handleInputChange}
                             placeholder="john@example.com" 
                             required 
                           />
@@ -189,33 +189,27 @@ export default function Contact() {
                           <Input 
                             id="phone" 
                             name="phone"
-                            value={formData.phone}
-                            onChange={handleInputChange}
-                            placeholder="+1 234 567 8900" 
+                            placeholder="+962 6 123 4567" 
                           />
                         </div>
                         
                         <div className="space-y-2">
-                          <Label htmlFor="subject">{t.contact.subject}</Label>
+                          <Label htmlFor="chalet">Chalet Selection</Label>
                           <Input 
-                            id="subject" 
-                            name="subject"
-                            value={formData.subject}
-                            onChange={handleInputChange}
-                            placeholder="Reservation Inquiry" 
+                            id="chalet" 
+                            name="chalet"
+                            placeholder="Which chalet are you interested in?" 
                             required 
                           />
                         </div>
                       </div>
                       
                       <div className="space-y-2">
-                        <Label htmlFor="message">{t.contact.message}</Label>
+                        <Label htmlFor="message">Order Details & Special Requests</Label>
                         <textarea 
                           id="message" 
                           name="message"
-                          value={formData.message}
-                          onChange={handleInputChange}
-                          placeholder={t.contact.howCanWeHelp} 
+                          placeholder="Please tell us your check-in/check-out dates and any special requirements" 
                           className="w-full min-h-[150px] p-3 rounded-md border border-input bg-background"
                           required 
                         />
@@ -223,7 +217,7 @@ export default function Contact() {
                       
                       <Button type="submit" className="w-full btn-primary">
                         <Send className="mr-2 h-4 w-4" />
-                        {t.contact.send}
+                        Place Order
                       </Button>
                     </form>
                   ) : (

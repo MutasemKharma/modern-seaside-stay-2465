@@ -20,9 +20,9 @@ const NotFound = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-background">
       <div className="glass-card p-10 max-w-md text-center animate-fade-in">
         <h1 className="text-9xl font-bold text-primary mb-4">404</h1>
-        <h2 className="text-2xl font-semibold mb-4">{t.notFound.title}</h2>
+        <h2 className="text-2xl font-semibold mb-4">Chalet Not Available</h2>
         <p className="text-muted-foreground mb-8">
-          {t.notFound.description}
+          Sorry, the chalet you're looking for is no longer available or the link may be broken. Please browse our available chalets or contact us for assistance.
         </p>
         <Button asChild className="btn-primary">
           <Link to="/">
