@@ -5,7 +5,8 @@ export const it = {
     amenities: "Servizi",
     gallery: "Galleria",
     contact: "Contatti",
-    bookNow: "Prenota Ora"
+    bookNow: "Prenota Ora",
+    ownerLogin: "Accesso Proprietario"
   },
   hero: {
     subtitle: "CHALET DI LUSSO IN TUTTA LA GIORDANIA",

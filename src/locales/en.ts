@@ -5,7 +5,8 @@ export const en = {
     amenities: "Amenities",
     gallery: "Gallery",
     contact: "Contact",
-    bookNow: "Book Now"
+    bookNow: "Book Now",
+    ownerLogin: "Owner Login"
   },
   hero: {
     subtitle: "LUXURY CHALETS ACROSS JORDAN",

@@ -49,6 +49,9 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center space-x-2">
           <ThemeToggle />
+          <Button variant="ghost" asChild>
+            <Link to="/login">{t.nav.ownerLogin}</Link>
+          </Button>
           <Button asChild className="btn-primary">
             <Link to="/booking">{t.nav.bookNow}</Link>
           </Button>
@@ -83,11 +86,18 @@ export default function Navbar() {
               </ul>
             </div>
             
-            <Button asChild className="w-full btn-primary mt-6">
-              <Link to="/booking" onClick={() => setMobileMenuOpen(false)}>
-                {t.nav.bookNow}
-              </Link>
-            </Button>
+            <div className="flex flex-col gap-2 mt-6">
+              <Button variant="ghost" asChild className="w-full">
+                <Link to="/login" onClick={() => setMobileMenuOpen(false)}>
+                  {t.nav.ownerLogin}
+                </Link>
+              </Button>
+              <Button asChild className="w-full btn-primary">
+                <Link to="/booking" onClick={() => setMobileMenuOpen(false)}>
+                  {t.nav.bookNow}
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
